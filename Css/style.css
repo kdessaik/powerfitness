@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
 .navBar{
   
     display: flex;
@@ -286,7 +288,23 @@ border-radius: 25px;
     background-color: black;
     cursor: pointer;
 }
-@media only screen and (max-width: 900px) {
-    .logoLink>img{
-        margin-left: 150px;
-  }}
+@media only screen and (max-width: 1400px) {
+    .decriptionMap>.mapouter{
+        position: relative;
+        left: 150px;
+        
+    
+    } 
+  
+    .sectionFour>div{
+       
+        height: 370px;
+        
+    
+    }
+    .divServices>div>h1{
+        font-size: 20px;
+
+    }
+  
+}
