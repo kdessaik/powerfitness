@@ -286,3 +286,7 @@ border-radius: 25px;
     background-color: black;
     cursor: pointer;
 }
+@media only screen and (max-width: 900px) {
+    .logoLink>img{
+        margin-left: 150px;
+  }}
