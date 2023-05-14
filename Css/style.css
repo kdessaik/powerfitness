@@ -197,7 +197,7 @@ color: black;
 }
 .sectionFour>div{
     width: 40%;
-    height: 350px;
+    height: 450px;
     background-color: white;
     padding: 2%;
     margin-left: 7%;
@@ -308,3 +308,16 @@ border-radius: 25px;
     }
   
 }
+.mb-4>img{
+    width: 60%;
+}
+.mb-4{
+    text-align: left;
+}
+#contactes{
+    margin-top: 100px;
+}
+.logoSocial{
+    width: 2%;
+    background-color: transparent;
+  }
