@@ -173,6 +173,32 @@ padding: 2%;}
  
    
 
+
+    
+ 
+ 
+.sectionFive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sectionFive>div>img{
+width: 50%;
+}
+.divAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+.divAbout>img{
+
+}
+.divAbout>
+
+
 @media only screen and (max-width: 1400px) {
   
     .divServices>div{
@@ -188,5 +214,3 @@ padding: 2%;}
       height: 550px;  
     }
 }
-    
-  
