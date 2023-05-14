@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+.navBar{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+   
+
+}
+
+.logoLink>img{
+    width: 20%;
+    margin-left: 100px;
+    
+}
+.navBar>ul{
+display: flex;
+flex-direction: row;
+justify-content:space-around ;
+background-color: transparent;
+margin-right: 10%;
+   
+
+
+
+}
+.navBar>ul>li{
+    
+    list-style: none;
+    margin-right: 5%;
+    margin-top: 70px;
+    margin-right: 10%;
+   
+
+
+}
+.navBar>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(248, 246, 246);
+  
+
+}
+a :hover{
+
+    color: rgb(197, 11, 11);
+}
+
+.navBar>ul>li>a:hover{
+    color: brown;
+font-weight: bold;
+}
+.sticky>.navBar{
+    position: fixed;
+    left: -7%;
+    padding: 0% 15%;
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7%;
+    background-color: rgb(0, 0, 0);
+}
+.sticky>.navBar>ul>li{
+    
+    list-style: none;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.sticky>.navBar>ul>li>a{
+    color: white;
+
+    
+}
+.sticky>.navBar>ul>li>a:hover{
+    color: brown;
+}
+
+
+
+
+
+
+.divServices>div{
+    margin-top: 5%;
+    width: 85%;
+    height: 500px;
+   
+    padding: 2%;
+    padding-top: 0%;
+    background-color: rgb(0, 0, 0);
+    margin-right: 2%;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-bottom: 5%;
+
+    
+
+}
+.divServices>div:hover{
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
+}
+.divServices>div>div>h1{
+    color: brown;
+}
+.divServices>div>div>button{
+    border: none;
+    background-color: brown;
+ padding: 2% 2%;
+    border-radius: 25px;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+
+
+}
+.divServices>div>div>p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.divServices>div>div>button{
+    color: white;
+}
+.divServices>div>div>button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+
+.mb-4>img{
+    width: 60%;
+}
+.mb-4{
+    text-align: left;
+}
+#contactes{
+    margin-top: 100px;
+}
+.logoSocial{
+    width: 2%;
+    background-color: transparent;
+  }
+ 
+  .sectionFive>h1{
+    margin-left: 7%;
+    
+  }
+  .divServicesGeneral{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+padding: 2%;}
+.divServicesGeneral>div{
+    width: 60%;
+    padding: 2%;
+    color: white;
+}
+.divServicesGeneral>div>img{
+    padding: 10%;
+   position: relative;
+   left: -3%;
+   
+}
+
+ 
+   
+
+@media only screen and (max-width: 1400px) {
+  
+    .divServices>div{
+        
+        width: 90%;
+        
+    
+        
+    
+    }
+
+    .divServices>div{
+      height: 550px;  
+    }
+}
+    
+  
