@@ -193,13 +193,14 @@ border-radius: 100px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
   
 
 
 }
 .divAbout>div{
     text-align: center;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 110%;
     
 
@@ -213,10 +214,14 @@ border-radius: 100px;
         margin-top: 10%;
     }
 .sectionFive{
-margin-right: 25%;
+margin-right: 5%;
 padding: 2%;
 
 }
+.divAbout>div>p{
+    text-align: left;
+}
+
 .sectionAbout{
     text-align: center;
     padding: 2%;
